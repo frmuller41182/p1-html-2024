@@ -5,4 +5,9 @@ Declaring variables to be my primary color palette in VPA website.
 :root {
   --primary-color: #000000;
   --secondary-color: #8b0000;
+  /* As we saw in class we declare a few options in case the user's browser doesn't support the first one. */
+  --primary-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-size-small: 0.8rem;
+  --font-size-regular: 1rem;
+  --font-size-large: 1.5rem;
 }
