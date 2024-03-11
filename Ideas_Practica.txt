@@ -1,3 +1,14 @@
+Vritus Prudentia Academy (VSA) (Virtue and Knowledge)
+
+Voy a crear una página sobre una institución educativa inventada. Voy a intentar includir en esta práctica la mayoría de los conceptos de 
+HTML y CSS que hemos dado en el postgrado para poder practicarlos y tenerlos de referencia por si algun dia lo necesito.
+
 Cosas de HTML y CSS que quiere poner en la práctica:
 
-1. 
+1. No escribir CSS difectamente en <style> sino referenciarlo en los metadatos de la página de HTML.
+2. Añadir un icono a la págiva que sea .svg que son más bonitos.
+3. Añadir algun script con JS para hacer efectos en la página. Primera idea sería añadir dark mode? cambiando los 
+colores de la página que a la vez deberían estar guardados como variables para que sea fácil cambiarlos.
+4. Añadir metainformación.
+5. Añadir secciones a la página de HTML: main, article, section, nav, header, footer.
+6. 
