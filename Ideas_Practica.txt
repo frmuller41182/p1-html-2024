@@ -17,3 +17,16 @@ colores de la página que a la vez deberían estar guardados como variables para
 9. Experimentar con element positioning (por ejemplo hacer que el topbar este siempre visible).
 10. Usar variables de CSS para los colores principales/secundarios/tamaño etc. --> DONE.
 
+Page Sections:
+
+1. Top Bar with logo etc. and a button to change the colors.
+    1.1 Logo of VSA
+    1.2 Color Scheme Toogle button
+    1.3 Email Icon?
+    1.4 Non Functional Search Bar.
+2. Left Menu with some Nav Links and below the links an Iframe of the Calendar.
+3. In the Center and Main an article about the Academy being launche. Copy an article you saw online for exmaple. 
+4. On the right:An interest form? When you click I can do a show alert.
+    4.1 Consider an alternative to the defaul alert() of JS. Maybe a modal?
+5. On the bottom:Footer disclaimer?  
+
