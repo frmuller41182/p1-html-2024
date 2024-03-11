@@ -5,10 +5,15 @@ HTML y CSS que hemos dado en el postgrado para poder practicarlos y tenerlos de 
 
 Cosas de HTML y CSS que quiere poner en la práctica:
 
-1. No escribir CSS difectamente en <style> sino referenciarlo en los metadatos de la página de HTML.
-2. Añadir un icono a la págiva que sea .svg que son más bonitos.
+1. No escribir CSS difectamente en <style> sino referenciarlo en los metadatos de la página de HTML. --> DONE.
+2. Añadir un icono a la págiva que sea .svg que son más bonitos. --> DONE.
 3. Añadir algun script con JS para hacer efectos en la página. Primera idea sería añadir dark mode? cambiando los 
 colores de la página que a la vez deberían estar guardados como variables para que sea fácil cambiarlos.
-4. Añadir metainformación.
+4. Añadir metainformación. --> DONE.
 5. Añadir secciones a la página de HTML: main, article, section, nav, header, footer.
-6. 
+6. Utilizar selectores de CSS "complejos".
+7. Solo usar em, rem, vw y vh; también usar flex-box en la mayor medida posible.
+8. Hacer embedding de una imagen generada con GenAI y un iframe.
+9. Experimentar con element positioning (por ejemplo hacer que el topbar este siempre visible).
+10. Usar variables de CSS para los colores principales/secundarios. 
+
