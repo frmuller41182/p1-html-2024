@@ -42,7 +42,6 @@ header {
 
 #topBar {
   background-color: var(--secondary-color);
-  flex: 1;
   max-height: 100%;
 }
 
