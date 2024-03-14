@@ -1,5 +1,5 @@
 /* 
-Declaring variables to be my primary color palette in VPA website.
+Declaring variables to be my primary color palette in VSA website.
  */
 
 :root {
@@ -37,7 +37,7 @@ header {
   align-items: stretch;
   box-sizing: border-box;
   flex: 0.5;
-  /* max-height: 10vh; */
+  max-height: 10vh;
 }
 
 #topBar {
@@ -66,8 +66,8 @@ header {
 }
 
 #TopBarTitle {
-  font-size: 2em;
-  max-height: 90%;
+  font-size: 1rem;
+  max-height: 7vh;
   width: auto;
   flex: 1;
 }
@@ -150,4 +150,12 @@ CSS Section dedicated to Footer Component
 footer {
   flex: 0.5;
   background-color: var(--secondary-color);
+}
+
+.FooterEl {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
 }

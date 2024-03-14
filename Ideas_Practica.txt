@@ -1,16 +1,16 @@
-Vritus Prudentia Academy (VSA) (Virtue and Knowledge)
+Virtus Scientia Academy (VSA) (Virtue and Knowledge)
 
-Voy a crear una página sobre una institución educativa inventada. Voy a intentar includir en esta práctica la mayoría de los conceptos de 
-HTML y CSS que hemos dado en el postgrado para poder practicarlos y tenerlos de referencia por si algun dia lo necesito.
+Voy a crear una página sobre una institución educativa inventada. Voy a intentar usar en esta práctica la mayoría de los conceptos de 
+HTML y CSS que hemos dado en el postgrado para poder practicarlos y tenerlos de referencia por si algún dia los necesito.
 
-Cosas de HTML y CSS que quiere poner en la práctica:
+Cosas de HTML y CSS que quiero poner en la práctica:
 
-1. No escribir CSS difectamente en <style> sino referenciarlo en los metadatos de la página de HTML. --> DONE.
-2. Añadir un icono a la págiva que sea .svg que son más bonitos. --> DONE.
+1. No escribir CSS directamente en <style>, referenciarlo en los metadatos de la página de HTML. --> DONE.
+2. Añadir un icono a la página que sea más bonito. --> DONE.
 3. Añadir algun script con JS para hacer efectos en la página. Primera idea sería añadir dark mode? cambiando los 
 colores de la página que a la vez deberían estar guardados como variables para que sea fácil cambiarlos.
 4. Añadir metainformación. --> DONE.
-5. Añadir secciones a la página de HTML: main, article, section, nav, header, footer.
+5. Añadir secciones a la página de HTML: main, article, section, nav, header, footer. --> DONE.
 6. Utilizar selectores de CSS "complejos".
 7. Solo usar em, rem, vw y vh; también usar flex-box en la mayor medida posible.
 8. Hacer embedding de una imagen generada con GenAI y un iframe.
@@ -22,11 +22,9 @@ Page Sections:
 1. Top Bar with logo etc. and a button to change the colors.
     1.1 Logo of VSA
     1.2 Color Scheme Toogle button
-    1.3 Email Icon?
-    1.4 Non Functional Search Bar.
+    1.4 Non Functional Search Bar. --> Stretch Goal
 2. Left Menu with some Nav Links and below the links an Iframe of the Calendar.
-3. In the Center and Main an article about the Academy being launche. Copy an article you saw online for exmaple. 
-4. On the right:An interest form? When you click I can do a show alert.
-    4.1 Consider an alternative to the defaul alert() of JS. Maybe a modal?
+3. In the Center and Main an article about the Academy being launched. Copy an article you saw online for exmaple. 
+4. On the right:An interest form? When you submit I can do a show alert.
 5. On the bottom:Footer disclaimer?  
 
