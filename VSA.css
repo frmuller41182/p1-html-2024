@@ -23,6 +23,7 @@ body {
   align-items: stretch;
   height: 100vh;
   box-sizing: border-box;
+  font: var(--primary-font-family);
 }
 
 /*
@@ -84,6 +85,35 @@ header {
 CSS Section dedicated to Left Bar Component
 */
 
+.LeftBar {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.LeftBarLinks p a {
+  color: antiquewhite;
+}
+
+/*
+CSS Section dedicated to Right Bar Component
+*/
+
+.RightBar {
+  flex: 0.5;
+  background-color: var(--primary-color);
+}
+
+.form-container h2 {
+  color: antiquewhite;
+}
+
+.iframediv iframe {
+  width: 20vw;
+  height: auto;
+}
+
+/* Main Section */
 main {
   display: flex;
   flex-direction: row;
@@ -91,8 +121,7 @@ main {
   border: 1px solid black;
 }
 
-.LeftBar,
-.RightBar {
+.LeftBar {
   flex: 0.25;
   background-color: var(--primary-color);
 }
