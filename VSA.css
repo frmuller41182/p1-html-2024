@@ -106,6 +106,12 @@ CSS Section dedicated to Right Bar Component
   background-color: var(--primary-color);
 }
 
+.form-container,
+.iframediv {
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
 .form-container h2 {
   color: antiquewhite;
 }
@@ -118,7 +124,7 @@ CSS Section dedicated to Right Bar Component
 
 .iframediv iframe {
   width: 20vw;
-  height: auto;
+  height: 30vh;
 }
 
 .iframediv h2 {
@@ -189,7 +195,7 @@ CSS Section dedicated to Footer Component
 */
 
 footer {
-  flex: 0.5;
+  flex: 0.3;
   background-color: var(--secondary-color);
 }
 
