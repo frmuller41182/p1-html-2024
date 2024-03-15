@@ -44,7 +44,6 @@
             <button type="button" id="buttoncolorchange">Dark Mode</button>
             <script>
               const buttonselected = document.getElementById('buttoncolorchange');
-          
               buttonselected.addEventListener('click', () => {
                 console.log("I have been clicked!")
                 document.documentElement.style.setProperty('--primary-color', 'red');
@@ -131,7 +130,7 @@
         <div class="form-container">
           <h2>Want to hear more? Fill out the form below</h1>
           <form>
-            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Name" id="formName" />
             <input type="text" placeholder="Surname" />
             <input type="text" placeholder="Email" />
             <select name="country" >
@@ -142,7 +141,17 @@
               <option value="jpn">Japan</option>
             </select>
 
-            <button type="submit">Submit</button>
+            <button type="submit" id="formbutton">Submit</button>
+            <script>
+              const formButton = document.getElementById('formbutton');
+              formButton.addEventListener('click', (e) => {                
+                console.log("I have been clicked!");
+                e.preventDefault();
+                console.log("Hehe, I prevented the default behavior");
+                const name = document.getElementById("formName").value;
+                alert(`Hi ${name}! Thank you for submitting the form, we will use your data with care. "Care" is the name of our latest LLM that we will train it with. Appreciate your voluntary and informed contribution! I'm forced to clarify this is a joke, for legal protection ;)`);
+              });
+            </script>
           </form>
         </div>
         <div class="iframediv">
