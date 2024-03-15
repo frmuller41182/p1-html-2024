@@ -20,6 +20,15 @@
     />
     <link rel="stylesheet" href="VSA.css" />
     <title>Virtus Scientia Academy (VSA) | Home Page</title>
+    <script>
+      const button = document.getElementById('buttoncolorchange');
+  
+      button.addEventListener('click', () => {
+        console.log("I have been clicked!")
+        document.documentElement.style.setProperty('--primary-color', 'red');
+        document.documentElement.style.setProperty('--secondary-color', 'green');
+      });
+    </script>
   </head>
   <body>
     <header>
@@ -29,10 +38,19 @@
             <img src="/images/VSA_Logo_Top_bar.png" alt="VSA Academy Logo" />
           </div>
           <div id="TopBarTitle">
-            <h1>Virtus Scientia Academy</h1>
+            <h1 id="h1topbar">Virtus Scientia Academy</h1>
           </div>
           <div id="ButtonContainer">
-            <button type="button">Dark Mode</button>
+            <button type="button" id="buttoncolorchange">Dark Mode</button>
+            <script>
+              const buttonselected = document.getElementById('buttoncolorchange');
+          
+              buttonselected.addEventListener('click', () => {
+                console.log("I have been clicked!")
+                document.documentElement.style.setProperty('--primary-color', 'red');
+                document.documentElement.style.setProperty('--secondary-color', 'green');
+              });
+            </script>
           </div>
         </div>
       </section>
@@ -43,6 +61,8 @@
           <p><a href="example.com">About Us</a></p>
           <p><a href="example.com">Faculty and Staff</a></p>
           <p><a href="example.com">Academic Programs</a></p>
+          <p><a href="example.com">Research</a></p>
+          <p><a href="example.com">News and Events</a></p>
           <p><a href="example.com">Alumni</a></p>
         </div>
       </div>
@@ -111,15 +131,22 @@
         <div class="form-container">
           <h2>Want to hear more? Fill out the form below</h1>
           <form>
-            <input type="text" placeholder="Input 1" />
-            <input type="text" placeholder="Input 2" />
-            <input type="text" placeholder="Input 3" />
-            <input type="text" placeholder="Input 4" />
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Surname" />
+            <input type="text" placeholder="Email" />
+            <select name="country" >
+              <option value="usa">USA</option>
+              <option value="esp">Spain</option>
+              <option value="fr">France</option>
+              <option value="ita">Italy</option>
+              <option value="jpn">Japan</option>
+            </select>
 
             <button type="submit">Submit</button>
           </form>
         </div>
         <div class="iframediv">
+          <h2>Planned Events 2024</h2>
           <iframe
             src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FMadrid&bgcolor=%23D50000&showTitle=0&showPrint=0&showTabs=0"
           ></iframe>
@@ -130,7 +157,7 @@
       <section id="Footer">
         <div class="FooterEl">
           <div>
-            <p>&copy; 2024 VSA Academy All Rights Reserved.</p>
+            <p>&copy; <b>2024 VSA Academy All Rights Reserved.</b></p>
           </div>
         </div>
       </section>

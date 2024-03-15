@@ -49,8 +49,8 @@ header {
 .topBarEl {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: stretch;
+  justify-content: space-around;
+  align-items: center;
   box-sizing: border-box;
   max-height: 100%;
   width: 100%;
@@ -58,7 +58,7 @@ header {
 
 #topLogo {
   max-height: 90%;
-  flex: 1;
+  flex: 0.5;
 }
 
 #topLogo img {
@@ -67,18 +67,20 @@ header {
 }
 
 #TopBarTitle {
-  font-size: 1rem;
+  font-size: 2rem;
   max-height: 7vh;
+  margin-top: 0;
   width: auto;
   flex: 1;
 }
 
 #TopBarTitle h1 {
   max-height: 90%;
+  margin-top: 0;
 }
 
 #ButtonContainer {
-  flex: 1;
+  flex: 0.5;
 }
 
 /*
@@ -108,9 +110,19 @@ CSS Section dedicated to Right Bar Component
   color: antiquewhite;
 }
 
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
 .iframediv iframe {
   width: 20vw;
   height: auto;
+}
+
+.iframediv h2 {
+  color: antiquewhite;
 }
 
 /* Main Section */

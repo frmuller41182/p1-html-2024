@@ -8,23 +8,23 @@ Cosas de HTML y CSS que quiero poner en la práctica:
 1. No escribir CSS directamente en <style>, referenciarlo en los metadatos de la página de HTML. --> DONE.
 2. Añadir un icono a la página que sea más bonito. --> DONE.
 3. Añadir algun script con JS para hacer efectos en la página. Primera idea sería añadir dark mode? cambiando los 
-colores de la página que a la vez deberían estar guardados como variables para que sea fácil cambiarlos.
+colores de la página que a la vez deberían estar guardados como variables para que sea fácil cambiarlos. --> DONE.
 4. Añadir metainformación. --> DONE.
 5. Añadir secciones a la página de HTML: main, article, section, nav, header, footer. --> DONE.
 6. Utilizar selectores de CSS "complejos".
 7. Solo usar em, rem, vw y vh; también usar flex-box en la mayor medida posible.
-8. Hacer embedding de una imagen generada con GenAI y un iframe.
+8. Hacer embedding de una imagen generada con GenAI y un iframe. --> DONE.
 9. Experimentar con element positioning (por ejemplo hacer que el topbar este siempre visible).
 10. Usar variables de CSS para los colores principales/secundarios/tamaño etc. --> DONE.
 
 Page Sections:
 
 1. Top Bar with logo etc. and a button to change the colors.
-    1.1 Logo of VSA
+    1.1 Logo of VSA --> Done
     1.2 Color Scheme Toogle button
     1.4 Non Functional Search Bar. --> Stretch Goal
-2. Left Menu with some Nav Links and below the links an Iframe of the Calendar.
-3. In the Center and Main an article about the Academy being launched. Copy an article you saw online for exmaple. 
+2. Left Menu with some Nav Links and below the links an Iframe of the Calendar. --> DONE
+3. In the Center and Main an article about the Academy being launched. Copy an article you saw online for exmaple. --> DONE.
 4. On the right:An interest form? When you submit I can do a show alert.
-5. On the bottom:Footer disclaimer?  
+5. On the bottom:Footer disclaimer? --> DONE.
 
