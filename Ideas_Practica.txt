@@ -20,11 +20,11 @@ colores de la página que a la vez deberían estar guardados como variables para
 Page Sections:
 
 1. Top Bar with logo etc. and a button to change the colors.
-    1.1 Logo of VSA --> Done
+    1.1 Logo of VSA --> DONE.
     1.2 Color Scheme Toogle button
     1.4 Non Functional Search Bar. --> Stretch Goal
-2. Left Menu with some Nav Links and below the links an Iframe of the Calendar. --> DONE
+2. Left Menu with some Nav Links and below the links an Iframe of the Calendar. --> DONE.
 3. In the Center and Main an article about the Academy being launched. Copy an article you saw online for exmaple. --> DONE.
-4. On the right:An interest form? When you submit I can do a show alert.
+4. On the right:An interest form? When you submit I can do a show alert. -> DONE.
 5. On the bottom:Footer disclaimer? --> DONE.
 
