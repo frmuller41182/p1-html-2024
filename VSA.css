@@ -89,11 +89,6 @@ header {
   align-items: center;
 }
 
-/* button {
-  background-color: var(--primary-color);
-  fon
-} */
-
 #TopBarTitle {
   display: flex;
   flex-direction: column;
@@ -155,7 +150,6 @@ main {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
-  border: 1px solid black;
 }
 
 .LeftBar {
